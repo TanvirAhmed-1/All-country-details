@@ -1,0 +1,20 @@
+.li-img{
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 5px;
+    list-style: none;
+
+}
+.img-grid{
+display: grid;
+grid-template-columns: repeat(5,auto);
+row-gap: 20px;
+list-style: none;
+align-items: center;
+
+}
+.tanvir{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+     gap: 10px;
+ 

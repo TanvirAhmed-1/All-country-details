@@ -1,0 +1,73 @@
+.body{
+   border-radius: 10px;
+   border: 2px solid rgba(63, 138, 223, 0.882);
+   margin: 15px;
+   padding: 20px;
+   box-shadow: 0px 3px 5px 2px rgba(40, 132, 237, 0.2);
+
+}
+.pic{
+    width: 350px;
+    height: 220px;
+    border-radius: 25px;
+}
+
+.disable {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+.visit:hover{
+    background-color: rgb(21, 181, 139);
+}
+.visit{
+ background-color: rgb(96, 220, 195);
+ padding: 15px 50px;
+ margin: 5px;
+ margin-right: 10px;
+ border-radius: 25px;
+ border: none;
+ box-shadow: 0px -1px 5px 2px mediumseagreen;
+}
+
+.non_visited{
+    padding: 15px 50px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px -1px 5px 2px mediumseagreen;
+}
+.butt{
+    padding: 15px 30px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px -1px 5px 2px mediumseagreen;
+
+
+}
+.butt:hover{
+    background-color: rgb(70, 145, 236);
+}
+
+.details{
+
+    max-width: 500px ;
+    margin: 0px auto;
+    display: grid;
+    column-gap: 50px;
+    padding: 10px 50px;
+    justify-content:center;
+    align-items:center;
+    text-align: justify;
+    grid-template-columns:auto
+    auto;
+    font-size:16px;
+    margin-left: 10px;
+    
+  
+  }
+  
